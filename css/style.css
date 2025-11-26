@@ -26,10 +26,10 @@ Base Reset
 
 body {
     font-family: var(--font-main);
-   color: var(--color-primary);
-   background-color: var(--color-light);
-   line-height: 1.6;
-   padding-top: 80px;
+    color: var(--color-primary);
+    background-color: var(--color-light);
+    line-height: 1.6;
+    padding-top: 80px;
 }
 
 /*----------------------------------------------
@@ -183,6 +183,16 @@ badges and buttons
     transform: translateY(-3px);
     background-color: var(--color-accent);
     color: var(--color-light);
+}
+
+/*----------------------------------------------
+Certifications
+-----------------------------------------------*/
+#certifications .certSource {
+    font-size: x-small;
+    display: block;
+    margin-top: 0.3rem;
+    color: var(--color-accent);
 }
 
 /*----------------------------------------------
